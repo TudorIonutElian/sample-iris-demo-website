@@ -16,4 +16,7 @@
 .main-block_info-message,
 .main-block_info-content {
     min-width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
 }
