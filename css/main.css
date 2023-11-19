@@ -4,11 +4,16 @@
 } 
 
 #main-block {
-    display:flex; 
-    flex-direction:columns; 
+    display: flex; 
+    flex-direction: row; 
     align-items: center; 
-    justify-content: center; 
+    justify-items: center; 
     background-color: blue; 
     color: #fff;
     padding: 20px;
+}
+
+.main-block_info-message,
+.main-block_info-content {
+    min-width: 100%;
 }
